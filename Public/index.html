@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+
+<body>
+
+    <p class="header">Give Your Information</p>
+    <br><br>
+
+
+    <form action="/" type="submit" id="form">
+    
+        <label for="name"> Name</label>
+        <input type="text" name="name" id="name" placeholder="Name" >
+        <p class="pp">Only letters and numbers and only 5-12 characters allowed AND NO SPACES</p>
+
+        <p id="noname" class="chname">SOMEONE HAS CHOSEN YOUR NAME HAHHA</p>
+        
+        <label for="email"> Email</label>
+        <input type="email" name="email" id="email" placeholder="Email"required >
+        <p class="pp">Bruh if u dont know how to type the email...... just get lost</p>
+
+        <br>
+
+        <label for="password"> Password</label>
+        <input type="password" name="password" id="password" placeholder="Password"required >
+        <p class="pp">Only letters and numbers and minimum 8 characters allowed AND NO SPACES</p>
+
+        <br>
+
+        <label for="sex"> Gender</label>
+        <select id="sex" name="sex" >
+
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Gay">Gay</option>
+
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Submit" name="submit" id="submit"></input>
+        
+    </form>
+
+    <script src="bundle.js"></script>
+    
+</body>
+</html>
